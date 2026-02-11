@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>San Valentín 💖</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Paso 1 -->
+  <div class="card" id="step1">
+    <h2>💌 ¿Quién eres?</h2>
+    
+    <label for="personSelect" class="sr-only">Selecciona tu nombre</label>
+    <select id="personSelect">
+        <option value="">Selecciona tu nombre</option>
+        <option value="mami">MAMI</option>
+        <option value="papi">PAPI</option>
+        <option value="gibelina">GIBELINA</option>
+        <option value="galia">GALIA</option>
+        <option value="gilandy">GILANDY</option>
+        <option value="pamela">PAMELA</option>
+        <option value="gilary">GILARY</option>
+        <option value="oscar">OSCAR</option>
+      </select>
+
+    <button id="btnStep1">Continuar</button>
+  </div>
+
+  <!-- Paso 2 -->
+  <div class="card hidden" id="step2">
+    <h2>🔐 Confirma tu identidad</h2>
+    <input type="password" id="secretInput" placeholder="Palabra secreta">
+    <button id="btnStep2">Entrar</button>
+    <p class="error" id="errorMsg"></p>
+  </div>
+
+  <!-- Paso 3 -->
+  <div class="card hidden" id="step3">
+    <h2 id="finalTitle"></h2>
+    <p id="finalMessage"></p>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
