@@ -1,13 +1,13 @@
 let selectedPerson = "";
 
 const secrets = {
-    mami: "amor",
-    papi: "amor",
-    gibelina: "pequeña",
-    gilandy: "pequeño",
-    pamela: "camila",
-    gilary: "fatal",
-    oscar: "profesor"
+    mami: "aAmor",
+    papi: "Amor",
+    gibelina: "Galia",
+    gilandy: "Hierro",
+    pamela: "Camila",
+    gilary: "Diente",
+    oscar: "Profesor"
   };
 
   const messages = {
