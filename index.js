@@ -1,8 +1,8 @@
 let selectedPerson = "";
 
 const secrets = {
-    mami: "Amor",
-    papi: "Amor",
+    mami: "mami",
+    papi: "papi",
     gibelina: "Galia",
     gilandy: "Hierro",
     pamela: "Camila",
